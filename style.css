@@ -37,3 +37,7 @@ animation: web 4s infinite;
 75% {fill: yellow;}
 100% {fill:black;}
 }
+
+rect{
+  animation:web 4s infinite;
+}
