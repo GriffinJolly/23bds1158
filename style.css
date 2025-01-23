@@ -1,0 +1,39 @@
+.color-square{
+width: 200px;
+height: 200px;
+animation: colorChange 4s linear infinite;
+}
+@keyframes colorChange{
+0%{background-color: red;}
+25%{background-color: pink;}
+50%{background-color: green;}
+75%{background-color: yellow;}
+100%{background-color: black;}
+}
+.bouncing-ball{
+width: 100px;
+height: 100px;
+background-color: red;
+border-radius: 50%;
+position: relative;
+animation: bouncing 4s ease-in-out infinite;
+}
+@keyframes bouncing{
+0%{top:0; left:0; background-color=red;}
+25%{top:0; left: calc(100% - 100px); background-color: blue;}
+50%{top: calc(100% - 100px); left:100%; background-color: green;}
+75%{top: 100%; left:0; background-color: yellow;}
+100%{top:0; left:0; background-color: red;}
+}
+.ww{
+width:200px;
+height: 200px;
+background-color:red;
+animation: web 4s infinite;
+}
+@keyframes web{
+25% {fill: pink;}
+50% {fill: green;}
+75% {fill: yellow;}
+100% {fill:black;}
+}
